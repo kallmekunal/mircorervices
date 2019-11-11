@@ -26,11 +26,14 @@ public class DBConfiguration {
 	   return sessionFactory;
 	}
 
+	//Below datasource will be used only in case of 
+	//hibernate usage ,with spring data CRUDRepository is used
+	//which picks entries from application.properties
 	@Bean
 	public DataSource dataSource() {
 	    BasicDataSource dataSource = new BasicDataSource();
 	    dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-	    dataSource.setUrl("jdbc:mysql://localhost:3306/alansari");
+	    dataSource.setUrl("jdbc:mysql://localhost:3306/customerdb");
 	    dataSource.setUsername("root");
 	    dataSource.setPassword("Deoghar@123");
 	    return dataSource;
