@@ -20,7 +20,7 @@ public class APIError {
 		this();
 		this.status = status;
 	}
-	APIError(HttpStatus status, Throwable ex) {
+	public APIError(HttpStatus status, Throwable ex) {
 		this();
 		this.status = status;
 		this.message = "Unexpected error";
