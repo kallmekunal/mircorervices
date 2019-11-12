@@ -55,7 +55,6 @@ public class CustomerController {
 	@ExceptionHandler(CustomerNotFoundException.class)
 	public @ResponseBody APIError handleNotFoundException(Exception e) {
 		APIError error = new APIError(HttpStatus.NOT_FOUND,e);
-		
 		return error;
 		
 	}
