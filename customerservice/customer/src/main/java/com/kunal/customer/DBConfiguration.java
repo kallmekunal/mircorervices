@@ -44,7 +44,7 @@ public class DBConfiguration {
 		return new Properties() 
 		{
 			{
-				setProperty("hibernate.hbm2ddl.auto", "create");
+				setProperty("hibernate.hbm2ddl.auto", "none");
 				setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL55Dialect"); 
 				setProperty("hibernate.show_sql","true");
 			}
