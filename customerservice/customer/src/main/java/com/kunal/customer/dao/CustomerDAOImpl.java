@@ -1,4 +1,4 @@
-package com.alansari.customer.dao;
+package com.kunal.customer.dao;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.alansari.customer.persistence.Customer;
+import com.kunal.customer.persistence.Customer;
 
 @Repository
 public class CustomerDAOImpl implements CustomerDao{

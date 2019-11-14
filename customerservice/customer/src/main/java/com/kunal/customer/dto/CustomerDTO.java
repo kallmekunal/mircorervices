@@ -1,4 +1,4 @@
-package com.alansari.customer.dto;
+package com.kunal.customer.dto;
 
 public class CustomerDTO {
 	

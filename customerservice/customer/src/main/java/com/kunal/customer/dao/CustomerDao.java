@@ -1,8 +1,8 @@
-package com.alansari.customer.dao;
+package com.kunal.customer.dao;
 
 import java.util.List;
 
-import com.alansari.customer.persistence.Customer;
+import com.kunal.customer.persistence.Customer;
 
 public interface CustomerDao {
     public void addCustomer(Customer user);

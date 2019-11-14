@@ -1,4 +1,4 @@
-package com.alansari.customer.errorresponse;
+package com.kunal.customer.errorresponse;
 
 public abstract class AbstractApiSubError {
 

@@ -1,4 +1,4 @@
-package com.alansari.customer;
+package com.kunal.customer;
 
 import java.util.Properties;
 
@@ -19,7 +19,7 @@ public class DBConfiguration {
 	   LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
 	   sessionFactory.setDataSource(dataSource());
 	   sessionFactory.setPackagesToScan(
-	       new String[] { "com.alansari.customer.persistence" }
+	       new String[] { "com.kunal.customer.persistence" }
 	   );
 	   sessionFactory.setHibernateProperties(hibernateProperties());
 
@@ -35,7 +35,7 @@ public class DBConfiguration {
 	    dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 	    dataSource.setUrl("jdbc:mysql://localhost:3306/customerdb");
 	    dataSource.setUsername("root");
-	    dataSource.setPassword("Deoghar@123");
+	    dataSource.setPassword("root");
 	    return dataSource;
 	}
 

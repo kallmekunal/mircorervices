@@ -1,15 +1,17 @@
-package com.alansari.customer.persistence;
+package com.kunal.customer.persistence;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
 
 @Entity(name="customer")
 public class Customer {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	Integer id;
+	@NotBlank(message="Customer First Name shall not be blank.")
 	String firstName;
 	String address;
 	String lastName;

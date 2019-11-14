@@ -1,4 +1,4 @@
-package com.alansari.customer.controllers.advices;
+package com.kunal.customer.controllers.advices;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
-import com.alansari.customer.errorresponse.APIError;
-import com.alansari.customer.exception.CustomerNotFoundException;
+import com.kunal.customer.errorresponse.APIError;
+import com.kunal.customer.exception.CustomerNotFoundException;
 
 
 @ControllerAdvice

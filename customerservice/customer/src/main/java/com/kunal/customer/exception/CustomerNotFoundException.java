@@ -1,4 +1,4 @@
-package com.alansari.customer.exception;
+package com.kunal.customer.exception;
 
 public class CustomerNotFoundException extends RuntimeException {
 
